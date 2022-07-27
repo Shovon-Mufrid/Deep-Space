@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+/* common css end */
+
+.header{
+    width:100%;
+    height: 100px;
+    /* background: rgb(0, 0, 0); */
+    
+}
+.header .nav{
+    width:1200px;
+    height: 100px;
+    
+    margin:0 auto;   
+}
+.header .nav .logo{
+    width: 200px;
+    height:80px;
+    float: left;
+}
+.header .nav .logo a img{
+    width:200px;
+    height:80px;
+}
+.header .nav .menu{
+    width:760px;
+    height:100px;
+    float: left;
+}
+.header .nav .menu ul{
+    list-style-type:none;
+    float:right;
+}
+.header .nav .menu ul li{
+    float:left;
+}
+.header .nav .menu ul li a{
+    text-decoration: none;
+    line-height: 100px;
+    color:rgb(7, 56, 56);
+    text-transform: capitalize;
+    font-size:24px;
+    padding: 0 20px;
+    display: inline-block;
+    transition: all .5s linear;
+    -o-transition: all .5s linear;
+    -ms-transition: all .5s linear;
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    display: inline-block;
+}    
+.header .nav .menu ul li:hover a{
+    color: rgb(248, 248, 248);
+    background: rgb(7, 56, 56);
+}
+.header .nav .account{
+    width: 200px;
+    height:80px;
+    float: left;
+}
+.header .nav .account img{
+    width:100px;
+    height:80px;
+    margin: 10px 20px;
+    float: right;  
+}
+/* menu end */
+
+.hero{
+    /* width:100%; */
+}
+.hero .hero-banner{
+    width:100%;
+    height:600px;
+    background: url(../Images/deep-space.jpg) no-repeat center / cover;
+}
+.hero .hero-banner .banner-overlay{
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.hero .hero-banner .banner-content{
+    width:1200px;
+    height:600px;
+    margin:0 auto;
+}
+.hero .hero-banner .banner-text{
+    width:800px;
+    height:600px;
+    float: left;
+}
+.hero .hero-banner .banner-text h1{
+    color: azure;
+    font-size:70px;
+    margin: 80px 0 0 40px;
+}
+.hero .hero-banner .banner-text h4{
+    color:yellowgreen;
+    font-size:40px;
+    margin: 20px 0 0 40px;
+}
+.hero .hero-banner .banner-text p{
+    color: grey;
+    font-size:20px;
+    margin: 10px 0 0 40px;
+    text-align: justify;
+    line-height: 24px;
+}
+.hero .hero-banner .banner-text a{
+    color:azure;
+    text-transform: uppercase;
+    border: 3px solid rgb(3, 3, 3);
+    background-color: rgb(86, 97, 69);
+    padding:0 20px;
+    line-height: 50px;
+    display: inline-block;
+    margin: 40px 5px 0 40px;
+    transition: all linear 0.2s;
+}
+.hero .hero-banner .banner-text a:hover{
+    background-color: white;
+    color:rgb(90, 12, 12);
+    border-color:yellowgreen;
+}
+.hero .hero-banner .banner-space{
+    width:400px;
+    height:600px;
+    /* background-color: rgb(29, 201, 29); */
+    float:left;
+}
