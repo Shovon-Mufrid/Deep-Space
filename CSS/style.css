@@ -12,7 +12,10 @@ ul{
     list-style:none;
 }
 /* common css end */
-
+.container{
+    width:1170px;
+    margin: 0 auto;
+}
 .header{
     width:100%;
     height: 100px;
@@ -31,8 +34,8 @@ ul{
     float: left;
 }
 .header .nav .logo a img{
-    width:200px;
-    height:80px;
+    width:100px;
+    height:100px;
 }
 .header .nav .menu{
     width:760px;
@@ -137,6 +140,49 @@ ul{
 .hero .hero-banner .banner-space{
     width:400px;
     height:600px;
-    /* background-color: rgb(29, 201, 29); */
     float:left;
 }
+
+/* slick-slider-starts-section-2 */
+.solar_system{
+    width:100%;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    background: rgb(90, 12, 12);
+}
+.solar_system .solar_system-img{
+     width: 50%;
+}
+.solar_system .solar_system-img-item{
+    padding: 15px;
+}
+.solar_system .solar_system-img-item img{
+    width:100%;
+    /* transform: translateY(10%); */
+}
+.solar_system .slick-center img{
+    transform: scale(1.2);
+    /* width:110%;
+    transform: translateY(-10%); */
+    transition: all linear 0.4s;
+}
+.solar_system .solar_system-text{
+     width: 40%;
+}
+
+.fun{
+    padding-top:200px;
+    padding-bottom:200px;
+    margin: 50px 0;
+    position: relative;
+    z-index: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
